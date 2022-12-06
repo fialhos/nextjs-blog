@@ -20,6 +20,7 @@ export default function Home({ allPostsData }) {
       </section>
       <Link href = "/api/hello"> Say Hello </Link>
       <Link href="/posts/first-post"> Go </Link>
+      <Link href = "/api/hello"> Say Hello Again </Link>
       <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>
         <h2 className={utilStyles.headingLg}>Blog</h2>
         <ul className={utilStyles.list}>
